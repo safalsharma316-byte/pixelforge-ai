@@ -1,0 +1,13 @@
+{
+  "name": "pixelforge-ai",
+  "version": "1.1.0",
+  "description": "AI image generator powered by FLUX.1-schnell via Hugging Face Inference Providers",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@huggingface/inference": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
